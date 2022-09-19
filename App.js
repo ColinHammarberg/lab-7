@@ -75,12 +75,10 @@ function calculator() {
       <TextInput
         placeholder="enter a value"
         onChangeText={set_astr}
-        backgroundColor="lightyellow"
         style={{
           padding: "10px",
           borderRadius: "5px",
           backgroundColor: "lightyellow",
-          textAlign: "center",
           margin: "20px",
         }}
       />
@@ -88,7 +86,6 @@ function calculator() {
       <TextInput
         placeholder="enter a value"
         onChangeText={set_bstr}
-        backgroundColor="lightyellow"
         style={{
           padding: "10px",
           borderRadius: "5px",
